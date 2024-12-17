@@ -35,6 +35,7 @@ public class Account {
     private LocalDateTime createdAt = LocalDateTime.now();
 
 
-
-
+    public Long getUserId() {
+        return userId;
+    }
 }
